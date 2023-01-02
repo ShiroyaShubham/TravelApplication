@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300sp"
+            android:layout_height="@dimen/_300sdp"
+            android:id="@+id/animation_view"
+            app:lottie_fileName="journey.json"
+            android:layout_marginBottom="@dimen/_150sdp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStartJourney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/button_back"
+            android:text="@string/startJourney"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:textSize="@dimen/_10ssp"
+            android:text="@string/enjoyJourney" />
+
+    </LinearLayout>
+
+</LinearLayout>

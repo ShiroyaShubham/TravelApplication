@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey"
+    android:orientation="vertical"
+    tools:context=".TravellersStoriesScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/back_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:text="@string/travellersStories"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/newStoriesByTravellers"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_300sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story6"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:id="@+id/txtLondon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/london"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_600sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story4"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/lonavala"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_600sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story3"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/efiltower"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_600sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story1"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/tokyo"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_600sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story5"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/abdulaWart"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_600sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story2"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/clockTower"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:src="@drawable/location" />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/storiesByTravellers"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story7"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/goa"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story2"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/thailand"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story3"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/maldives"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story8"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/mountEverest"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story5"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/capetown"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story6"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/lonavala"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story1"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/switzerland"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story4"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/tokyo"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story9"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/edStaffordAmazon"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story10"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/gladdenIsland"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story12"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/singapore"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/_145sdp"
+                    android:layout_height="@dimen/_145sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/story11"
+                    app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/disneyland"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingVertical="@dimen/_5sdp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/loutHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loutMyTrips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/my_trips" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myTrips"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loutExplore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/explore" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explore"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

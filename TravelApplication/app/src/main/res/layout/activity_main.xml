@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_350sdp"
+                android:background="@drawable/capetown">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:background="@drawable/button_back1"
+                    android:elevation="@dimen/_10sdp"
+                    android:hint="@string/searchTheDestination"
+                    android:inputType="text"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_10ssp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_5sdp"
+                        android:text="@string/capetown"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:text="@string/capetownDescription"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:background="@drawable/button_back"
+                        android:text="@string/bookNow"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="@string/popularDestination"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/temple"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/theColosseumTemple"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/great_wall"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/theGreatWallChina"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tajmahal"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/tajMahal"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/burjalarab"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/burjaLarab"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="@string/discoverByInterest"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/beach" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/beach"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:src="@drawable/romantic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/Romantic"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:src="@drawable/mountain" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/mountain"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:src="@drawable/honeymoon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/honeymoon"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:src="@drawable/international" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/international"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:src="@drawable/weekend" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:text="@string/weekend"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="@string/watchExplore"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/london"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+
+                            android:text="@string/london"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/lonavala"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="@string/lonavala"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/efiltower"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="@string/efiltower"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tokyo"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="@string/tokyo"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/abdula_wart"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="@string/abdulaWart"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_600sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/clocltower"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="@string/clockTower"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="@string/storiesByTravellers"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/maldives"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story2"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/thailand"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story3"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/switzerland"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story4"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/tokyo"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story5"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/capetown"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/_145sdp"
+                            android:layout_height="@dimen/_145sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story6"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:src="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:text="@string/lonavala"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtAllIdeas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:elevation="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:background="@drawable/border_back"
+                android:text="@string/seeAllInspiringIdeas"
+                android:textStyle="bold"
+                android:textColor="@color/blue"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingVertical="@dimen/_5sdp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/loutHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loutMyTrips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/my_trips" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myTrips"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loutExplore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/explore" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explore"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
