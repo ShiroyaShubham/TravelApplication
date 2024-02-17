@@ -11,9 +11,9 @@ This repository contains the user interface (UI) code for the Traveler App, a si
 
 ## Screenshots
 <div align="center">
-  <img src="SplashScreen.jpg" width="250" alt="Screenshot 1">
-  <img src="StartJourny.jpg" width="250" alt="Screenshot 2">
-  <img src="WelcomScreen.jpg" width="250" alt="Screenshot 3">
+  <img src="SplashScreen.jpg" width="250" alt="Screenshot 1 style="margin-right: 20px;">
+  <img src="StartJourny.jpg" width="250" alt="Screenshot 2 style="margin-right: 20px;">
+  <img src="WelcomScreen.jpg" width="250" alt="Screenshot 3 style="margin-right: 20px;">
   <img src="LoginScreen.jpg" width="250" alt="Screenshot 3">
   <img src="UpcomingTrip.jpg" width="250" alt="Screenshot 3">
   <img src="CompletedTrip.jpg" width="250" alt="Screenshot 3">
