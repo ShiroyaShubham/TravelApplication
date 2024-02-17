@@ -13,13 +13,13 @@ This repository contains the user interface (UI) code for the Traveler App, a si
 
 ![Screenshot 1](SplashScreen.jpg)
 ![Screenshot 2](StartJourny.jpg)
-![Screenshot 3](Welcome.jpg)
+![Screenshot 3](WelcomScreen.jpg)
 ![Screenshot 4](LoginScreen.jpg)
 ![Screenshot 5](HomeScreen.jpg)
 ![Screenshot 6](UpcomingTrip.jpg)
 ![Screenshot 6](CompletedTrip.jpg)
 ![Screenshot 6](Explore.jpg)
-![Screenshot 6](TravallersTrip.jpg)
+![Screenshot 6](TravellersStories.jpg)
 
 
 ## Getting Started
