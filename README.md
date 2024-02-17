@@ -24,4 +24,4 @@ Include some screenshots or GIFs showcasing different screens or features of you
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ShiroyaShubham/TravelApplication
+   git clone https://github.com/ShiroyaShubham/TravelApplication.git
