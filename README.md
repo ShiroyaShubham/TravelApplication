@@ -12,6 +12,8 @@ This repository contains the user interface (UI) code for the Traveler App, a si
 ## Screenshots
 
 Include some screenshots or GIFs showcasing different screens or features of your UI.
+![Screenshot 1](SplashScreen.jpg)
+
 
 ## Getting Started
 
